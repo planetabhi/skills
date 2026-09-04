@@ -47,10 +47,10 @@ The sentence before a code block describes a high-level operation that is expres
 ### Example
 
 ````
-Install the `react-router-dom` package as a project dependency.
+Create a new branch named `feature-login` and switch to it.
 
 ```shell-session
-$ npm install react-router-dom
+$ git checkout -b feature-login
 ```
 ````
 
