@@ -9,7 +9,7 @@ These guidelines help you choose consistent words and phrases in prose.
 
 Avoid language that makes assumptions about a user's faculties or ascribes mental health conditions to processes and technologies.
 
-For many people with different abilities, the difference between asking to "see" another topic instead of being asked to "refer" to another topic is minimal. But there are people for whom "see {link}" or "sanity check" is another reminder of their "otherness" with regard to their vision or mental health. The people who are unbothered by the language will still have a good experience and the people who are more sensitive to it will definitely feel included.
+For many people with different abilities, the difference between asking to "see" another topic instead of being asked to "refer" to another topic is minimal. But there are people for whom "see <link>" or "sanity check" is another reminder of their "otherness" with regard to their vision or mental health. The people who are unbothered by the language will still have a good experience and the people who are more sensitive to it will definitely feel included.
 
 The discussion around ableist language is nuanced and can easily deviate from how to write content on behalf of <company> to personal expression. Our goal is to be considerate and inclusive, so you should carefully weigh word choices so that we can avoid contributing to what can be an already frustrating experience. 
 
@@ -17,12 +17,12 @@ The discussion around ableist language is nuanced and can easily deviate from ho
 
 **Do:** 
 
-- `Refer to {link} for additional information.`
+- `Refer to <link> for additional information.`
 - `Perform a preliminary check to verify that the operation successfully completed.`
 
 **Don't:**
 
-- `See {link} for additional information.`
+- `See <link> for additional information.`
 - `Run a sanity check to verify that the operation successfully completed.`
 
 ## Do not use gender-specific language
@@ -53,12 +53,12 @@ Avoid describing actions using violent terms. Note that some words, such as "exe
 
 **Do:**
 
-- ``Click **Delete** to permanently remove {element}.``
+- ``Click **Delete** to permanently remove <element>.``
 - ``Use the `kill` command to stop the process.``
 
 **Don't:**
 
-- `Hit the **Delete** button to permanently remove {element}.`
+- `Hit the **Delete** button to permanently remove <element>.`
 - `Kill the process.`
 
 ## Avoid speculative language
@@ -91,7 +91,7 @@ General actions such as "use" are acceptable to avoid adding long descriptions.
 
 Instead of a general action, such as "use", the preferred word is emphasized in the following examples:
 
-- {product} **consumes** the configuration file. 
+- <product> **consumes** the configuration file. 
 - The flag **passes** values into the operation.
 - **Present** the token when calling the endpoint.
 
@@ -178,7 +178,7 @@ The following list contains common words and phrases that you should avoid in ed
 | --- | --- | --- |
 | blast radius | affected scope | metaphor, jargon |
 | ergo | therefore, as a result, so | Latin word meaning "therefore" |
-| etc. | " . . . and other {entities matching the description}." | Latin abbreviation of "et cetera", which means "and the rest". |
+| etc. | " . . . and other <entities matching the description>." | Latin abbreviation of "et cetera", which means "and the rest". |
 | e.g. or i.e. | "For example", "such as" | Abbreviation of Latin phrases used to give examples or restate what was previously said. |
 | carte blanche | full permission, admin access | French word that literally translates to "blank document" and means "unlimited authority". |
 | via | Choose a more concrete word to describe the relationship. | Latin word meaning "by way of". |

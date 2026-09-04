@@ -33,19 +33,19 @@ When adding dates as part of a reference, such as a releases page, use YYYY-MM-D
 ```
 # Release notes
 
-This page contains release information about {product}.
+This page contains release information about <product>.
 
 ## YYYY-MM-DD
 
-- {New feature}
-- {Fix}
-- {Other changes}
+- <New feature>
+- <Fix>
+- <Other changes>
 
 ## YYYY-MM-DD
 
-- {New feature}
-- {Fix}
-- {Other changes}
+- <New feature>
+- <Fix>
+- <Other changes>
 ```
 
 ## Use YYYY-MM-DDThh:mm:ss format for timestamps
