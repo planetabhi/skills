@@ -13,11 +13,11 @@ Refer to "the <command words> command", instead of "a <command words>" for clari
 
 **Do**:
 
-``To install the dependencies, run the `npm install` command in the directory containing the `package.json` file.``
+``To build the image, run the `docker build` command in the directory containing the `Dockerfile`.``
 
 **Don't**
 
-``To install the dependencies, `install` the directory containing the `package.json` file.``
+``To build the image, `build` the directory containing the `Dockerfile`.``
 
 ## Use language that matches keywords built into the product
 

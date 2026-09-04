@@ -20,7 +20,7 @@ Use `shell-session` syntax highlighting for CLIs.
 The following command starts the development server:
 
 ```shell-session
-$ npm run dev
+$ <product> server start
 ```
 ````
 
@@ -93,16 +93,16 @@ Code blocks that are associated with list items should be indented four spaces t
 ### Example
 
 ````
-1. Install the dependencies.
+1. Initialize the configuration.
 
     ```shell-session
-    $ npm install
+    $ <product> init
     ```
 
 1. Start the development server.
 
     ```shell-session
-    $ npm run dev
+    $ <product> server start
     ```
 ````
 
@@ -158,10 +158,10 @@ Place stand-in text, such as words indicating a general command line argument or
 ### Example
 
 ````
-Run the `npm run` command and specify the name of the script you want to execute:
+Run the `git checkout` command and specify the name of the branch you want to switch to:
 
 ```shell-session
-$ npm run <script-name>
+$ git checkout <branch-name>
 ```
 ````
 
