@@ -10,7 +10,7 @@ npx skills add planetabhi/skills
 SKILLS
 ------
 
-[1] Writing checklist
+[1] Docs style guide
 [2] Keyboard accessibility
 [3] Responsive design
-[4] Docs style guide
+[4] Writing checklist
