@@ -1,4 +1,4 @@
-agent skills by @planetabhi
+agent skills by @planetabhi for makers and design engineers
 
 
 INSTALL
@@ -13,3 +13,4 @@ SKILLS
 [1] Writing checklist
 [2] Keyboard accessibility
 [3] Responsive design
+[4] Docs style guide
