@@ -7,7 +7,7 @@ These guidelines help you choose consistent words and phrases when describing co
 - **keywords**: writing, word choice, CLIs, commands
 - **content sets**: documentation, tutorials
 
-Refer to "the {command words} command", instead of "a {command words}" for clarity. 
+Refer to "the <command words> command", instead of "a <command words>" for clarity. 
 
 ### Examples
 

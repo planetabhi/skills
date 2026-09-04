@@ -203,8 +203,8 @@ Use the <product> API to create, read, update, and delete: API keys, service acc
 
 Start by:
 
-1. {step}
-1. {step}
+1. <step>
+1. <step>
 ```
 
 ## Do not use quotation marks around file names, constructs, new terms, or to add emphasis

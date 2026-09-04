@@ -219,7 +219,7 @@ Description
 In the following example, . . .
 
 ```
-{some code}
+<some code>
 ```
 ````
 
@@ -234,8 +234,8 @@ The above shows . . .
 ````
 
 ```
-# This part of the code does {some action}
-{some code}
+# This part of the code does <some action>
+<some code>
 ```
 
 ````

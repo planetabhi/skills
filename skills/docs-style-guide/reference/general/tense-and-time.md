@@ -42,7 +42,7 @@ Use future tense when introducing a sequence of steps that the practitioner must
 - **content sets**: documentation, tutorials
 
 - Do not refer to features and functionality that will be implemented in the future. 
-- Except for release notes, do not use words that use relational points of time, such as "new", "old", "now", or "currently" to describe products. In release notes, you can describe features and functionality as new, for example, "{product} can now . . ."
+- Except for release notes, do not use words that use relational points of time, such as "new", "old", "now", or "currently" to describe products. In release notes, you can describe features and functionality as new, for example, "<product> can now . . ."
 - Reference specific versions as necessary in dedicated areas, such as the Requirements block on a usage page.
 - Do not mention specific versions in the body of a document outside specific contexts, such as release notes, deprecation guides, and upgrade guides.
 
@@ -54,15 +54,15 @@ Use future tense when introducing a sequence of steps that the practitioner must
 ```
 ## Requirements 
 
-- {product} {version} or later
-- {external product or system} or later
+- <product> <version> or later
+- <external product or system> or later
 ```
 
 ```
 
 ## Requirements 
 
-- {product} {version} or later is required to {perform specific action described in this topic}
+- <product> <version> or later is required to <perform specific action described in this topic>
 ```
 
 **Don't:**

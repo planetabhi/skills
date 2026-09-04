@@ -36,7 +36,7 @@ Simple present tense describes actions or events that happen regularly, are curr
 
 ### Examples
 
-- "Configure proxies", instead of "Configuring proxies
+- "Configure proxies", instead of "Configuring proxies"
 - "Provision infrastructure", instead of "Provisioning infrastructure"
 
 ## Nest headings sequentially according to header level markdown
