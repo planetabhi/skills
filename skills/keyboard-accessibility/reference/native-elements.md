@@ -15,23 +15,21 @@ Adding `role="button"` and `tabindex="0"` does not add button behavior. A custom
 
 ## `disabled` versus `aria-disabled`
 
-Native `disabled` removes an element from the tab order entirely, so keyboard and screen reader users cannot land on it to discover why it is inactive. When the reason must stay discoverable, such as a Submit button that stays inactive until a form is valid, use `aria-disabled="true"` instead. Keep the control focusable, convey the state, and prevent the action in the handler.
+Native `disabled` removes an element from the tab order entirely, so keyboard and screen reader users cannot land on it to discover why it is inactive. When the reason must stay discoverable, such as a Submit button that stays inactive until a form is valid, use `aria-disabled="true"` instead. Keep the control focusable, convey the state, and block submission in the form's `onSubmit` handler so both pointer clicks and Enter-key submission are prevented while invalid.
 
 ```jsx
-// Reason stays discoverable: focusable, announced as disabled, action blocked
-<button
-  type="submit"
-  aria-disabled={!isValid}
-  onClick={(e) => {
-    if (!isValid) {
-      e.preventDefault();
-      return;
-    }
-    submit();
+// Reason stays discoverable: the button is focusable and announced as disabled,
+// and the form guard blocks both click and Enter-key submission while invalid
+<form
+  onSubmit={(e) => {
+    e.preventDefault();
+    if (isValid) submit();
   }}
 >
-  Submit
-</button>
+  <button type="submit" aria-disabled={!isValid}>
+    Submit
+  </button>
+</form>
 ```
 
 Reserve native `disabled` for controls whose inactive reason does not need to be reached, and pair `aria-disabled` with a visible, programmatically associated explanation.
