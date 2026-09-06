@@ -1,4 +1,4 @@
-agent skills by @planetabhi for makers and design engineers
+agent skills by @planetabhi for design engineers and makers
 
 
 INSTALL
