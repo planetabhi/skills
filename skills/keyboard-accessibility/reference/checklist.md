@@ -1,6 +1,4 @@
-# Testing and tools
-
-## Testing checklist
+# Testing checklist
 
 - [ ] Every interactive element is reachable with `Tab`.
 - [ ] Focus indicator is always visible and ≥3:1 contrast (light and dark).

@@ -3,7 +3,7 @@ name: writing-checklist
 description: Guided self-editing checklist for anyone writing an article, essay, story, email, or post. Turns a rough draft into clear, punchy, well-flowing prose by running it against the writer's intent, reader, and a set of concrete revision checks. Use when the user says "review my writing", "edit this draft", "make this clearer", "tighten this up", "writing checklist", "proofread", "polish this piece", or asks how to improve an article, story, essay, or copy.
 ---
 
-# Writing Checklist
+# Writing checklist
 
 A self-editing checklist for a draft such as an article, essay, story, email, or post. It checks the draft against four qualities of good writing and returns the failing lines with rewrites.
 
@@ -28,9 +28,9 @@ Check the draft against each group below. Where a check fails, quote the line an
 - [ ] Simple points made to sound needlessly complicated
 - [ ] Too much detail, or too many examples or explanations
 - [ ] Double negatives without good reason
-- [ ] Entities described in a longwinded way
+- [ ] Entities described in a long-winded way
 - [ ] Sentences carrying thoughts that are too long, or weighed down with subclauses
-- [ ] Pointless ceremonies, such as capitalising words or putting quote marks around them unnecessarily
+- [ ] Pointless ceremonies, such as capitalizing words or putting quote marks around them unnecessarily
 - [ ] Weak, filler, or hedging words that add nothing
 - [ ] Clutter that obscures a key idea in a sentence
 

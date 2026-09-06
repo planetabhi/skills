@@ -37,13 +37,13 @@ The rules and code examples are bundled under `./reference/`. Read the relevant 
    - [reference/focus-not-obscured.md](./reference/focus-not-obscured.md) — Focus not obscured
    - [reference/focus-order.md](./reference/focus-order.md) — Focus order
    - [reference/composite-widgets.md](./reference/composite-widgets.md) — Composite widgets (roving tabindex)
-   - [reference/visibility-mechanisms.md](./reference/visibility-mechanisms.md) — `aria-hidden` vs `hidden` vs `inert`
+   - [reference/visibility-mechanisms.md](./reference/visibility-mechanisms.md) — `aria-hidden` versus `hidden` versus `inert`
 - Moderate rules:
    - [reference/skip-links.md](./reference/skip-links.md) — Skip link and landmarks
    - [reference/navigation-and-notifications.md](./reference/navigation-and-notifications.md) — Navigation and notification focus
    - [reference/input-alternatives.md](./reference/input-alternatives.md) — Character-key shortcuts, touch, and pointer
 - Testing:
-   - [reference/testing-and-tools.md](./reference/testing-and-tools.md) — Testing checklist and automated-tool limits
+   - [reference/checklist.md](./reference/checklist.md) — Testing checklist and automated-tool limits
 
 ## Key WCAG 2.2 criteria
 
