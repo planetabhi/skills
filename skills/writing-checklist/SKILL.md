@@ -71,3 +71,7 @@ Check the draft against each group below. Where a check fails, quote the line an
 - [ ] Any clichés or stale expressions
 - [ ] "House style" not kept throughout
 - [ ] Writing that is not beautiful, or not written with full awareness of the primary intent
+
+---
+
+Authored by @planetabhi

@@ -380,3 +380,7 @@ alongside its adaptive styles.
 - [ ] `prefers-reduced-motion` and `prefers-color-scheme` honoured.
 - [ ] `100dvh`/`100svh` used instead of `100vh` for full-height regions.
 - [ ] Verified on real devices, not just a resized desktop browser.
+
+---
+
+Authored by @planetabhi
