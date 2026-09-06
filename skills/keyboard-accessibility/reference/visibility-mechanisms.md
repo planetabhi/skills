@@ -1,4 +1,4 @@
-# `aria-hidden` vs `hidden` vs `inert`
+# `aria-hidden` versus `hidden` versus `inert`
 
 | Mechanism | Visual | Sequential focus | Accessibility tree |
 | --- | --- | --- | --- |
