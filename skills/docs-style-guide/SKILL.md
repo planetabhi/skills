@@ -10,6 +10,10 @@ documentation and tutorials. The complete
 guide is bundled with this skill under `./reference/`. Treat those files as the
 source of truth and read the relevant file before applying or citing a rule.
 
+**Never quote, cite, or link a rule you have not loaded this session, and never
+invent a rule, a Do/Don't example, or a reference path. If you have not read the
+file, read it first or say nothing.**
+
 ## Purpose
 
 Writing in a consistent style and voice makes the brand strong and
@@ -62,6 +66,10 @@ not list.
 5. **Respect the content set** on each rule and skip rules that do not list the
    current content set.
 
+## Confirmation
+
+When you are only reviewing, report violations without pausing. Before applying edits to existing files, confirm the intended change set first, and ask for any context you need to judge correctly, such as the content set, instead of guessing.
+
 ## Reference map
 
 - General writing guidelines (`./reference/general/`):
@@ -86,5 +94,12 @@ not list.
 - Markdown standards (`./reference/markdown/`):
    - [fonts-and-formats.md](./reference/markdown/fonts-and-formats.md) — Fonts and formats
    - [headings.md](./reference/markdown/headings.md) — Headings
+
+## Anti-patterns
+
+- Applying a rule to a content set it does not list.
+- Citing or quoting a rule you have not loaded.
+- Passive voice where the active voice works.
+- A long word, foreign phrase, or jargon term where a plain one works.
 
 

@@ -12,6 +12,10 @@ Apply these rules to every animation and transition. Examples are dependency-fre
 
 Animate only with a clear purpose, keep every animation accessible, and add no runtime dependencies. Motion should clarify a change, not decorate it. Prefer the cheapest technique that works, reuse the project's existing motion tokens, and ship the reduced-motion alternative with the animation rather than as a follow-up.
 
+## Confirmation
+
+When you are only reviewing, report findings without pausing. Before applying edits to existing files, confirm the intended change set first, and ask for any context you need to judge correctly instead of guessing.
+
 ## Decision sequence
 
 Work every animation through these steps in order, and stop at any step that fails.
@@ -22,7 +26,7 @@ Work every animation through these steps in order, and stop at any step that fai
 4. Shape the entrance and exit. Decelerate in, make the exit faster, set `transform-origin` at the trigger for popovers, and stagger short lists. Refer to [reference/entrances-and-exits.md](./reference/entrances-and-exits.md).
 5. Define the reduced-motion alternative. Provide a real substitute such as a cross-fade, not just an off switch. Refer to [reference/accessibility.md](./reference/accessibility.md).
 6. Make it interruptible. Let the user reverse or redirect the motion mid-flight where that is expected. Refer to [reference/interactivity.md](./reference/interactivity.md).
-7. Verify performance and quality. Hold 60fps on a mid-range device, then run the checklist. Refer to [reference/performance.md](./reference/performance.md) and [reference/checklist.md](./reference/checklist.md).
+7. Verify performance and quality. Hold 60fps on a mid-range device, then run the checklist. Code inspection cannot confirm frame rate or smoothness, so mark anything that needs a running page as pending verification rather than passed. Refer to [reference/performance.md](./reference/performance.md) and [reference/checklist.md](./reference/checklist.md).
 
 ## Decision gate
 
@@ -77,6 +81,13 @@ Read the relevant file before applying or citing a rule.
    - [reference/checklist.md](./reference/checklist.md) — Testing checklist
 - Credits:
    - [reference/credits.md](./reference/credits.md) — Lineage and sources
+
+## Anti-patterns
+
+- Animating layout properties like `width`, `height`, `top`, or `left`.
+- Treating reduced motion as an off switch instead of a real substitute.
+- Animating high-frequency surfaces such as a command palette.
+- Moving content the user is actively reading or acting on.
 
 ---
 
