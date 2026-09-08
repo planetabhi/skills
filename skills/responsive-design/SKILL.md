@@ -14,6 +14,10 @@ Design for content and constraints, not for named devices. A layout is responsiv
 
 Never key layout decisions to device brands, operating systems, or product names. Those change and multiply. Let the content decide when the layout needs to change.
 
+## Confirmation
+
+When you are only reviewing, report findings without pausing. Before applying edits to existing files, confirm the intended change set first, and ask for any context you need to judge correctly instead of guessing.
+
 ## Severity scale
 
 | Level | Meaning |
@@ -23,7 +27,7 @@ Never key layout decisions to device brands, operating systems, or product names
 | **Moderate** | Noticeable friction with a workaround |
 | **Minor** | Polish gap with marginal impact |
 
-Judge severity by the real effect on the task at a real size and input, not by the rule alone.
+Judge severity by the real effect on the task at a real size and input, not by the rule alone. When reviewing statically, viewport behavior, zoom, orientation, and touch response cannot be confirmed by reading code, so mark those as pending verification rather than passed.
 
 ## Reference map
 
@@ -46,6 +50,14 @@ The rules and code examples are bundled under `./reference/`. Read the relevant 
    - [reference/user-preferences.md](./reference/user-preferences.md) — User preferences
 - Testing:
    - [reference/checklist.md](./reference/checklist.md) — Testing checklist
+
+## Anti-patterns
+
+- Breakpoints named for devices or operating systems instead of content.
+- Fixed pixel widths that force horizontal scroll on small screens.
+- Hover-only controls with no pointer or keyboard equivalent.
+- `width: 100vw`, which ignores the scrollbar and overflows.
+- Disabling zoom with `user-scalable=no` or a `maximum-scale` cap.
 
 ---
 

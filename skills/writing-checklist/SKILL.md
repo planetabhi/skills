@@ -7,7 +7,9 @@ description: Guided self-editing checklist for anyone writing an article, essay,
 
 A self-editing checklist for a draft such as an article, essay, story, email, or post. It checks the draft against four qualities of good writing and returns the failing lines with rewrites.
 
-## Step 1. Frame the piece (ask first, one at a time)
+## Step 1. Frame the piece
+
+Infer intent, reader, and house style from the request and the draft itself. Ask the user only for what you cannot reasonably infer, one item at a time.
 
 1. **Primary intent**. Pick one of `Inform`, `Persuade`, `Entertain`, `Inspire`.
 2. **Reader**. What are the reader's views, assumptions, and familiarity with the subject?
@@ -71,6 +73,10 @@ Check the draft against each group below. Where a check fails, quote the line an
 - [ ] Any clichés or stale expressions
 - [ ] "House style" not kept throughout
 - [ ] Writing that is not beautiful, or not written with full awareness of the primary intent
+
+## Output
+
+Return each finding as the quoted original line, the problem in a few words, the rewrite, and a one-line rationale. Group repeated issues and lead with the highest-impact ones. Do not restate lines that already work.
 
 ---
 

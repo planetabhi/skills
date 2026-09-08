@@ -1,12 +1,12 @@
 ---
 name: ship-ui
 description: >
-  Load this skill before shipping a UI change, to statically review the diff for design-craft regressions (accessibility, motion, responsive, and visual or UX drift), correctness and security issues, and leftover debug code, then write a commit message and pull request description that match the repository's conventions. Triggers on "review my UI change", "is this ready to ship", "ship this", "write a commit message and PR for this frontend change". This is the ship gate at the end of the design → build → ship pipeline.
+  Load this skill before shipping a UI change, to statically review the diff for design-craft regressions (accessibility, motion, responsive, and visual or UX drift), correctness and security issues, and leftover debug code, then write a commit message and pull request description that match the repository's conventions. Triggers on "review my UI change", "ship this", "is this ready to ship". This is the ship gate at the end of the design → build → ship pipeline.
 ---
 
 # Ship UI
 
-The final review before a UI change ships. It assumes the code already works, so it skips the style a linter enforces. The skill checks the diff for the design-craft regressions linters miss, then turns that diff into a clean commit message and PR description.
+The final review before a UI change ships. It assumes the code compiles and passes lint, so it skips the mechanical style a linter enforces, but it still reviews logic, correctness, and security. The skill checks the diff for the design-craft regressions linters miss, then turns that diff into a clean commit message and PR description.
 
 ## Core mandate
 
@@ -30,7 +30,7 @@ Gather every pending change, so a clean result is trustworthy. Pick the scope th
 - Uncommitted work about to be committed. Run `git diff HEAD` to capture staged and unstaged edits to tracked files.
 - A whole branch headed for a PR. Run `git diff <base>...HEAD` for committed work, then add `git diff HEAD` for any uncommitted work on top.
 
-`git diff` omits untracked files, so detect them with `git status --short` and inspect each new UI file directly. Set `<base>` to the branch the PR merges into, usually the repository default branch from `git symbolic-ref --short refs/remotes/origin/HEAD`. Fall back to `origin/main` or `origin/master`, and use local `main` or `master` only when no remote exists, because a local default branch can sit behind its remote and produce an unrelated diff. Do not use the branch's own upstream, which often tracks its remote copy and would hide most of the change set.
+`git diff` omits untracked files, so detect them with `git status --short` and inspect each new UI file directly. Set `<base>` to the branch the PR merges into, usually the repository default branch from `git symbolic-ref --short refs/remotes/origin/HEAD`. Fall back to `origin/main` or `origin/master`, and use local `main` or `master` only when no remote exists, because a local default branch can sit behind its remote and produce an unrelated diff. Do not use the branch's own upstream, which often tracks its remote copy and would hide most of the change set. If you cannot determine the base branch confidently, ask the user before continuing, because reviewing against the wrong base produces a misleading result.
 
 ### 2. Review the UI diff
 

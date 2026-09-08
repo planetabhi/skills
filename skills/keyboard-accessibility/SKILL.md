@@ -12,6 +12,10 @@ Apply these rules to every interactive element and feature. Examples are React-f
 
 All interactive functionality must be fully usable with a keyboard alone, with no mouse or touch required, except where the function genuinely depends on path-based movement (for example, freehand drawing). Keyboard access is not the same as "can Tab to it": native and composite widgets use different key conventions, and users must be able to reach, operate, and leave every component.
 
+## Confirmation
+
+When you are only reviewing, report findings without pausing. Before applying edits to existing files, confirm the intended change set first, and ask for any context you need to judge correctly instead of guessing.
+
 ## Severity scale
 
 | Level | Meaning |
@@ -73,6 +77,14 @@ The rules and code examples are bundled under `./reference/`. Read the relevant 
 > **Standards horizon:** These rules target WCAG 2.2 AA. WCAG 3.0 is in
 > development. Keyboard and focus requirements are expected to remain broadly
 > compatible. Monitor <https://www.w3.org/TR/wcag-3.0/>.
+
+## Anti-patterns
+
+- Positive `tabindex` values to force order; fix the DOM order instead.
+- Clickable `div` or `span` where a `button` or `a` belongs.
+- Blanket `preventDefault()` that swallows expected keys.
+- Removing the focus outline without a visible replacement.
+- `aria-hidden="true"` on a focusable element, which strands focus.
 
 ---
 

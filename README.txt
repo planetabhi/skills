@@ -1,4 +1,4 @@
-agent skills by @planetabhi for design engineers and makers
+agent skills by @planetabhi
 
 
 INSTALL
@@ -14,4 +14,5 @@ SKILLS
 [2] Keyboard accessibility
 [3] Motion design
 [4] Responsive design
-[5] Writing checklist
+[5] Ship UI
+[6] Writing checklist
