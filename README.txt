@@ -12,8 +12,9 @@ SKILLS
 
 [1] Docs style guide
 [2] Keyboard accessibility
-[3] Lyrical prose
-[4] Motion design
-[5] Responsive design
-[6] Ship this
-[7] Writing checklist
+[3] Hand-drawn SVG
+[4] Lyrical prose
+[5] Motion design
+[6] Responsive design
+[7] Ship this
+[8] Writing checklist
